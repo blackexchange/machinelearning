@@ -1,0 +1,30 @@
+# Para executar a api:
+
+1- Baixe o arquivo zip ao final do capítulo, descompacte e coloque em uma pasta no seu computador.
+
+2- Abra o terminal ou prompt de comando e navegue até a pasta onde estão os arquivos.
+
+3- Instale os pacotes com o comando abaixo:
+
+pip install -r requirements.txt
+
+4- Para testar o modelo via linha de comando, execute:
+
+python executa_modelo.py
+
+5- Para executar a api, execute:
+
+python executa_api.py
+
+6- Mantenha o terminal aberto, abra o navegador e teste a api com as urls abaixo (use suas próprias imagens se desejar):
+
+http://localhost:5000/app?img_url=https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_960_720.jpg&pred_num=1
+
+http://localhost:5000/app?img_url=https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_960_720.jpg&pred_num=3
+
+http://localhost:5000/app?img_url=https://www.lifewire.com/thmb/MYgnu04vc1AWzeXh4w2GROJ0KXg=/774x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/computer-with-mouse-520517340-d35aa8cd653a4f01843fbcf8d5a1b8ad.jpg&pred_num=2
+
+http://localhost:5000/app?img_url=https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Posaune.jpg/250px-Posaune.jpg&pred_num=2
+
+# Exemplo de url de imagem
+https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Posaune.jpg/250px-Posaune.jpg
